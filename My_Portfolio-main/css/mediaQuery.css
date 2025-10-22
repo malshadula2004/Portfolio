@@ -1,0 +1,1456 @@
+@media all and (max-width: 1375px) and (min-width: 920px) {
+  /*--------- hero section ----------*/
+  .left-section{
+    width: 60%;
+  }
+  .right-section{
+    width: 40%;
+  }
+  .divider{
+    width: 150%;
+    left: -50%;
+  }
+  .left-section>label:nth-child(2){
+    font-size: 35px;
+  }
+  .left-section>label:nth-child(3){
+    font-size: 65px;
+    right: 90px;
+  }
+  .left-section>label:nth-child(4){
+    font-size: 20px;
+    right: 120px;
+  }
+  .social-icons{
+    right: 120px;
+  }
+  .social-icons>a>div {
+    width: 50px;
+    height: 50px;
+  }
+  .navbar{
+    top: 30px;
+    right: 15px;
+  }
+  .navbar ul {
+    gap: 0;
+  }
+  .navbar ul li a {
+    font-size: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .right-section-content>img{
+    width: 80%;
+  }
+  .right-section-content {
+    left: -130px;
+  }
+
+  .up-btn{
+    width: 60px;
+    left: 93vw;
+  }
+
+  /*--------- about section ----------*/
+  .about>div:first-child{
+    width: 20%;
+    height: 6%;
+    border: 4px solid black;
+    font-size: 25px;
+  }
+  .about>div:nth-child(2)>p{
+    font-size: 14px;
+  }
+  .about>div:nth-child(3)>img{
+    width: 200px;
+  }
+  .about>div:nth-child(4){
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    font-size: 20px;
+  }
+
+  /*.backgroundImage {*/
+  /*  width: 400px;*/
+  /*  height: 300px;*/
+  /*  transform: translate(150px,-300px);*/
+  /*}*/
+  /*.backgroundImage>img {*/
+  /*  width: 300px;*/
+  /*  height: 300px;*/
+  /*}*/
+
+  /*--------- skills section ----------*/
+  .skill>div:first-child{
+    width: 20%;
+    height: 6%;
+    border: 4px solid black;
+    font-size: 25px;
+  }
+  .skill>label{
+    font-size: 22px;
+  }
+  .skill>section>div img {
+    width: 120px;
+    height: 120px;
+  }
+  .skill>section>div label{
+    font-size: 22px;
+  }
+
+  /*--------- education section ----------*/
+  .education>div:first-child{
+    width: 20%;
+    height: 6%;
+    border: 4px solid black;
+    font-size: 25px;
+  }
+  .diploma , .graduation-cap{
+    display: none;
+  }
+
+  /*--------- assignment section ----------*/
+
+  .assignment{
+    height: 105vh;
+  }
+  .assignment>div:first-child{
+    width: 20%;
+    height: 8%;
+    border: 4px solid black;
+    font-size: 25px;
+  }
+  .assignment-cards{
+    height: 70%;
+    grid-template-columns: 1fr 1fr;
+    top: 10%;
+  }
+  .assignment-cards>div:hover{
+    transform: scale(1.12);
+  }
+  .assignment-1 button , .assignment-2 button, .assignment-5 button, .assignment-6 button{
+    font-size: 18px;
+  }
+  .assignment-1>a:nth-child(3) , .assignment-2>a:nth-child(3) , .assignment-1>a:nth-child(4), .assignment-5>a:nth-child(4), .assignment-6>a:nth-child(4), .assignment-5>a:nth-child(5), .assignment-6>a:nth-child(5){
+    height: 13%;
+    font-size: 20px;
+  }
+  .assignment-cards>div>label:first-child{
+    font-size: 23px;
+  }
+  .assignment-cards>div>p:nth-child(2) {
+    font-size: 15px;
+  }
+  .assignment-3>button , .assignment-4>button , .assignment-7>button{
+    height: 13%;
+    font-size: 20px;
+  }
+  .btn-cancel {
+    height: 84%;
+  }
+  .form-container>div>a{
+    font-size: 17px;
+    height: 70%;
+  }
+  .assignment-btn-div>button{
+    width: 20%;
+    font-size: 17px;
+  }
+
+  /*--------- project section ----------*/
+  .project>div:first-child{
+    width: 20%;
+    height: 6%;
+    border: 4px solid black;
+    font-size: 25px;
+  }
+  .project>section{
+    height: 75%;
+  }
+  .front-content>label{
+    font-size: 20px;
+  }
+  .front-content>p{
+    font-size: 15px;
+  }
+
+  /*--------- gallery section ----------*/
+  .gallery>div:first-child{
+    width: 20%;
+    height: 6%;
+    border: 4px solid black;
+    font-size: 25px;
+  }
+  .photo-section{
+    height: 60%;
+    gap: 20px;
+    top: 120px;
+  }
+  .photo-line>div {
+    width: 26vw;
+    height: 60vh;
+  }
+  @keyframes animate-slider-920 {
+    0%,17%{
+      transform: translateY(0);
+    }
+    20%,37%{
+      transform: translateY(-60vh);
+    }
+    41%,58%{
+      transform: translateY(calc(-60vh * 2));
+    }
+    62%,79%{
+      transform: translateY(calc(-60vh * 3));
+    }
+    83%,100%{
+      transform: translateY(calc(-60vh * 4));
+    }
+  }
+  .line-1{
+    animation: animate-slider-920 35s infinite alternate-reverse;
+  }
+
+  .line-2{
+    animation: animate-slider-920 35s infinite alternate;
+  }
+
+  .line-3{
+    animation: animate-slider-920 35s infinite alternate-reverse;
+  }
+
+  /*--------- contact section ----------*/
+  .contact>div:first-child{
+    width: 20%;
+    height: 6%;
+    border: 4px solid black;
+    font-size: 25px;
+  }
+  .email-form{
+    left: 10%;
+  }
+  .email-form>label:first-child{
+    font-size: 20px;
+  }
+  .email-form>label{
+    font-size: 15px;
+  }
+  .contact input[type="text"]{
+    width: 75%;
+  }
+  .email-form>textarea {
+    width: 75%;
+  }
+  .email-form>button{
+    width: 30%;
+    height: 6%;
+    left: 23%;
+    font-size: 14px;
+  }
+  .links{
+    width: 85%;
+    height: 60%;
+  }
+  .links img{
+    width: 40px;
+    height: 40px;
+  }
+  .links>div>img{
+    top: 35%;
+    left: 8%;
+  }
+  .links>div>a{
+    top: 15%;
+    left: 15%;
+  }
+  .links>div>p{
+    position: relative;
+    top: -5%;
+    bottom: 0;
+    left: 9%;
+    font-size: 16px;
+  }
+
+  /*------------------ footer section ----------------*/
+
+  footer{
+    height: 12vh;
+    grid-template-rows: 1.7fr 1fr;
+  }
+  .bike-gif {
+    width: 85px;
+  }
+  .footer-content{
+    font-size: 14px;
+  }
+}
+
+@media all and (max-width: 919px) and (min-width: 650px) {
+  /*--------- hero section ----------*/
+  .left-section{
+    width: 60%;
+  }
+  .right-section{
+    width: 40%;
+  }
+  .divider{
+    width: 150%;
+    left: -50%;
+  }
+  .left-section>label:nth-child(1){
+    font-size: 45px;
+  }
+  .left-section>label:nth-child(2){
+    font-size: 25px;
+    right: 170px;
+  }
+  .left-section>label:nth-child(3){
+    font-size: 50px;
+    right: 70px;
+  }
+  .left-section>label:nth-child(4){
+    font-size: 18px;
+    right: 70px;
+  }
+  .social-icons{
+    right: 90px;
+  }
+  .social-icons>a>div {
+    width: 37px;
+    height: 37px;
+  }
+  .social-icons>a>div>img{
+    top: 6px;
+  }
+  .navbar{
+    top: 30px;
+    right: 10px;
+  }
+  .navbar ul {
+    gap: 0;
+  }
+  .navbar ul li a {
+    font-size: 12px;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .right-section-content>img{
+    height: 80vh;
+    width: 100%;
+  }
+  .right-section-content {
+    left: -140px;
+  }
+
+  .up-btn{
+    width: 50px;
+    left: 92vw;
+  }
+
+  /*--------- about section ----------*/
+  .about>div:first-child{
+    width: 20%;
+    height: 6%;
+    border: 4px solid black;
+    font-size: 22px;
+  }
+  .about>div:nth-child(2)>p{
+    font-size: 12px;
+  }
+  .about>div:nth-child(3)>img{
+    width: 170px;
+  }
+  .about>div:nth-child(4){
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    font-size: 17px;
+  }
+  .service>div>img{
+    width: 52px;
+    height: 56px;
+  }
+  .service>div>label {
+    font-size: 18px;
+  }
+  .service>div>p{
+    font-size: 12px;
+  }
+  /*.backgroundImage {*/
+  /*  width: 300px;*/
+  /*  height: 200px;*/
+  /*  transform: translate(150px,-300px);*/
+  /*  display: none;*/
+  /*}*/
+  /*.backgroundImage>img {*/
+  /*  width: 200px;*/
+  /*  height: 200px;*/
+  /*}*/
+
+  /*--------- skills section ----------*/
+  .skill>div:first-child{
+    width: 20%;
+    height: 6%;
+    border: 4px solid black;
+    font-size: 22px;
+  }
+  .skill>label{
+    font-size: 20px;
+  }
+  .skill>section>div img {
+    width: 100px;
+    height: 100px;
+  }
+  .skill>section>div label{
+    font-size: 20px;
+  }
+
+  /*--------- education section ----------*/
+  .education{
+    height: 85vh;
+  }
+  .education>div:first-child{
+    width: 20%;
+    height: 7%;
+    border: 4px solid black;
+    font-size: 22px;
+  }
+  .text>p{
+    font-size: 12px;
+  }
+  .dot{
+    width: 12px;
+    height: 12px;
+  }
+  .diploma , .graduation-cap{
+    display: none;
+  }
+
+  /*--------- assignment section ----------*/
+
+  .assignment{
+    height: 105vh;
+  }
+  .assignment>div:first-child{
+    width: 22%;
+    height: 6%;
+    border: 4px solid black;
+    font-size: 22px;
+  }
+  .assignment-cards{
+    height: 70%;
+    grid-template-columns: 1fr 1fr;
+    top: 7%;
+  }
+  .assignment-cards>div:hover{
+    transform: scale(1.15);
+  }
+  .assignment-1 button , .assignment-2 button, .assignment-5 button, .assignment-6 button{
+    font-size: 18px;
+  }
+  .assignment-1>a:nth-child(3) , .assignment-2>a:nth-child(3) , .assignment-1>a:nth-child(4), .assignment-5>a:nth-child(4), .assignment-6>a:nth-child(4), .assignment-5>a:nth-child(5), .assignment-6>a:nth-child(5){
+    font-size: 20px;
+    height: 13%;
+  }
+  .assignment-cards>div>label:first-child{
+    font-size: 20px;
+  }
+  .assignment-cards>div>p:nth-child(2) {
+    font-size: 14px;
+  }
+  .assignment-3>button , .assignment-4>button , .assignment-7>button{
+    height: 13%;
+    font-size: 20px;
+  }
+  .btn-cancel {
+    height: 85%;
+  }
+  .form-container>div>a{
+    font-size: 15px;
+    height: 70%;
+  }
+  .form-container>div>a:nth-child(3){
+    right: 6%;
+  }
+  .form-container>div>a:nth-child(2){
+    right: 41%;
+  }
+  .form-container>div>label{
+    font-size: 16px;
+  }
+  .assignment-btn-div>button{
+    width: 20%;
+    font-size: 16px;
+  }
+
+  /*--------- project section ----------*/
+  .project{
+    height: 150vh;
+  }
+  .project>div:first-child{
+    width: 20%;
+    height: 4%;
+    border: 4px solid black;
+    font-size: 22px;
+  }
+  .project>section{
+    height: 80%;
+    grid-template-columns: 1fr;
+  }
+  .front-content>label{
+    font-size: 18px;
+  }
+  .front-content>p{
+    font-size: 12px;
+  }
+
+  /*--------- gallery section ----------*/
+  .gallery{
+    height: 189vh;
+  }
+  .gallery>div:first-child{
+    width: 20%;
+    height: 4%;
+    border: 4px solid black;
+    font-size: 22px;
+  }
+  .photo-section{
+    height: 90%;
+    width: 60%;
+    gap: 20px;
+    grid-template-columns: 1fr;
+    top: 100px;
+  }
+  .photo-line{
+    display: flex;
+  }
+  .photo-line>div {
+    width: 60vw;
+    height: 50vh;
+  }
+  @keyframes animate-slider-650 {
+    0%,17%{
+      transform: translateX(0);
+    }
+    20%,37%{
+      transform: translateX(-60vw);
+    }
+    41%,58%{
+      transform: translateX(calc(-60vw * 2));
+    }
+    62%,79%{
+      transform: translateX(calc(-60vw * 3));
+    }
+    83%,100%{
+      transform: translateX(calc(-60vw * 4));
+    }
+  }
+  .line-1{
+    animation: animate-slider-650 35s infinite alternate-reverse;
+    /*animation: none;*/
+  }
+
+  .line-2{
+    animation: animate-slider-650 35s infinite alternate;
+    /*animation: none;*/
+  }
+
+  .line-3{
+    animation: animate-slider-650 35s infinite alternate-reverse;
+    /*animation: none;*/
+  }
+
+  /*--------- contact section ----------*/
+  .contact>div:first-child{
+    width: 20%;
+    height: 6%;
+    border: 4px solid black;
+    font-size: 22px;
+  }
+  .email-form{
+    left: 0;
+  }
+  .email-form>label:first-child{
+    font-size: 18px;
+  }
+  .email-form>label{
+    font-size: 13px;
+  }
+  .contact input[type="text"]{
+    width: 80%;
+  }
+  .email-form>textarea {
+    width: 80%;
+  }
+  .email-form>button{
+    width: 40%;
+    height: 6%;
+    left: 23%;
+    font-size: 12px;
+  }
+  .links{
+    width: 90%;
+    height: 60%;
+  }
+  .links img{
+    width: 30px;
+    height: 30px;
+  }
+  .links>div>img{
+    top: 35%;
+    left: 8%;
+  }
+  .links>div>a{
+    top: 15%;
+    left: 12%;
+    font-size: 13px;
+  }
+  .links>div>p{
+    position: relative;
+    top: -5%;
+    bottom: 0;
+    left: 6%;
+    font-size: 13px;
+  }
+  .links>div:last-child>a{
+    top: -18%;
+  }
+
+  /*------------------ footer section ----------------*/
+
+  footer{
+    height: 12vh;
+    grid-template-rows: 2fr 1fr;
+  }
+  .bike-gif {
+    width: 80px;
+  }
+  .footer-content{
+    font-size: 13px;
+  }
+}
+
+@media all and (max-width: 700px) and (min-width: 650px) {
+  .navbar{
+    display: none;
+  }
+  .container{
+    display: inline-block;
+  }
+}
+
+@media all and (max-width: 649px) and (min-width: 426px) {
+  /*--------- hero section ----------*/
+  .left-section{
+    width: 70%;
+  }
+  .right-section{
+    width: 30%;
+  }
+  .divider{
+    width: 190%;
+    left: -90%;
+    overflow: hidden;
+  }
+  .left-section>label:nth-child(1){
+    font-size: 35px;
+  }
+  .left-section>label:nth-child(2){
+    font-size: 25px;
+    right: 110px;
+    top: -170px;
+  }
+  .left-section>label:nth-child(3){
+    font-size: 32px;
+    right: 58px;
+    top: -140px;
+  }
+  .left-section>label:nth-child(4){
+    font-size: 14px;
+    right: 42px;
+    top: -140px;
+  }
+  .social-icons{
+    right: 50px;
+    top: -110px;
+  }
+  .social-icons>a>div {
+    width: 25px;
+    height: 25px;
+    z-index: 4;
+  }
+  .social-icons>a>div>img{
+    top: 4px;
+  }
+  .navbar{
+    display: none;
+  }
+  .container{
+    display: inline-block;
+  }
+  .bar1, .bar2, .bar3 {
+    width: 32px;
+    height: 4px;
+    margin: 5px 0;
+  }
+  .change .bar1 {
+    transform: translate(0, 9px) rotate(-45deg);
+  }
+  .change .bar3 {
+    transform: translate(0, -9px) rotate(45deg);
+  }
+  .menu-div{
+    width: 200px;
+  }
+  .right-section-content>img{
+    width: 100%;
+    height: 60vh;
+    z-index: -1;
+  }
+  .right-section-content {
+    left: -220px;
+  }
+
+  .up-btn{
+    width: 50px;
+    left: 90vw;
+  }
+
+  /*--------- about section ----------*/
+  .about>div:first-child{
+    width: 25%;
+    height: 6%;
+    border: 4px solid black;
+    font-size: 19px;
+  }
+  .about>div:nth-child(2)>p{
+    font-size: 11px;
+  }
+  .about>div:nth-child(3){
+    bottom: -35px;
+  }
+  .about>div:nth-child(3)>img{
+    width: 170px;
+  }
+  .about>div:nth-child(4){
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    font-size: 15px;
+    width: 17%;
+    top: 70px;
+  }
+  .service{
+    top: 80px;
+  }
+  .service>div>img{
+    width: 50px;
+    height: 50px;
+  }
+  .service>div>label {
+    font-size: 13px;
+  }
+  .service>div>p{
+    font-size: 11px;
+  }
+  /*--------- skills section ----------*/
+  .skill{
+    height: 80vh;
+  }
+  .skill>div:first-child{
+    width: 25%;
+    height: 6%;
+    border: 4px solid black;
+    font-size: 19px;
+  }
+  .skill>label{
+    font-size: 17px;
+  }
+  .marquee-content li{
+    margin-left: 20px;
+  }
+  .skill>section>div img {
+    width: 80px;
+    height: 80px;
+    bottom: 80px;
+  }
+  .skill>section>div label{
+    font-size: 16px;
+  }
+  .learning-skill{
+    width: 80%;
+  }
+  .learning-skill>div:nth-child(1)>label,.learning-skill>div:nth-child(3)>label{
+    left: 10px;
+  }
+
+  /*--------- education section ----------*/
+  .education{
+    height: 50vh;
+  }
+  .education>div:first-child{
+    width: 25%;
+    height: 10%;
+    border: 4px solid black;
+    font-size: 19px;
+  }
+  .wrap{
+    height: 70vmin;
+  }
+  .time{
+    font-size: 10px;
+    width: 22%;
+  }
+  .text>p{
+    font-size: 70%;
+  }
+  .dot{
+    width: 10px;
+    height: 10px;
+  }
+  .diploma , .graduation-cap{
+    display: none;
+  }
+
+  /*--------- assignment section ----------*/
+
+  .assignment{
+    height: 105vh;
+  }
+  .assignment>div:first-child{
+    width: 30%;
+    height: 5%;
+    border: 4px solid black;
+    font-size: 19px;
+  }
+  .assignment-cards{
+    height: 75%;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    top: 5%;
+  }
+  .assignment-cards>div:hover{
+    transform: scale(1.1);
+  }
+  .assignment-1 button , .assignment-2 button, .assignment-5 button, .assignment-6 button{
+    font-size: 15px;
+  }
+  .assignment-1>a:nth-child(3) , .assignment-2>a:nth-child(3) , .assignment-1>a:nth-child(4), .assignment-5>a:nth-child(4), .assignment-6>a:nth-child(4), .assignment-5>a:nth-child(5), .assignment-6>a:nth-child(5){
+    height: 10%;
+    top: 84%;
+  }
+  .assignment-cards>div>label:first-child{
+    font-size: 18px;
+  }
+  .assignment-cards>div>p:nth-child(2) {
+    font-size: 12px;
+  }
+  .assignment-3>a:nth-child(3) , .assignment-4>a:nth-child(3) , .assignment-3>a:nth-child(2) , .assignment-4>a:nth-child(2){
+    font-size: 15px;
+    top: 69%;
+  }
+  .assignment-3>button , .assignment-4>button , .assignment-7>button{
+    height: 12%;
+    font-size: 15px;
+    top: 84%;
+  }
+  .show-cases{
+    bottom: 5%;
+    height: 35%;
+  }
+  .form-popup{
+    top: 9%;
+  }
+  .btn-cancel {
+    height: 87%;
+    font-size: 15px;
+  }
+  .form-container>div>a{
+    font-size: 12px;
+    height: 70%;
+  }
+  .form-container>div>a:nth-child(3){
+    right: 2%;
+  }
+  .form-container>div>a:nth-child(2){
+    right: 36%;
+  }
+  .form-container>div>label{
+    font-size: 13px;
+  }
+  .assignment-btn-div>button{
+    width: 27%;
+    height: 90%;
+    font-size: 15px;
+  }
+
+  /*--------- project section ----------*/
+  .project>div:first-child{
+    width: 25%;
+    height: 6%;
+    border: 4px solid black;
+    font-size: 19px;
+  }
+  .project>section{
+    height: 80%;
+    grid-template-columns: 1fr;
+  }
+  .front-content>label{
+    font-size: 18px;
+  }
+  .front-content>p{
+    font-size: 12px;
+  }
+  .git-ico{
+    top: 55%;
+  }
+
+  /*--------- gallery section ----------*/
+  .gallery{
+    height: 150vh;
+  }
+  .gallery>div:first-child{
+    width: 25%;
+    height: 3%;
+    border: 4px solid black;
+    font-size: 19px;
+  }
+  .photo-section{
+    height: 85%;
+    width: 60%;
+    gap: 0;
+    grid-template-columns: 1fr;
+    top: 80px;
+  }
+  .photo-line{
+    display: flex;
+  }
+  .photo-line>div {
+    width: 60vw;
+    height: 40vh;
+  }
+  @keyframes animate-slider-426 {
+    0%,17%{
+      transform: translateX(0);
+    }
+    20%,37%{
+      transform: translateX(-60vw);
+    }
+    41%,58%{
+      transform: translateX(calc(-60vw * 2));
+    }
+    62%,79%{
+      transform: translateX(calc(-60vw * 3));
+    }
+    83%,100%{
+      transform: translateX(calc(-60vw * 4));
+    }
+  }
+  .line-1{
+    animation: animate-slider-426 35s infinite alternate-reverse;
+    /*animation: none;*/
+  }
+
+  .line-2{
+    animation: animate-slider-426 35s infinite alternate;
+    /*animation: none;*/
+  }
+
+  .line-3{
+    animation: animate-slider-426 35s infinite alternate-reverse;
+    /*animation: none;*/
+  }
+
+  /*--------- contact section ----------*/
+  .contact{
+    height: 140vh;
+  }
+  .contact>div:first-child{
+    width: 25%;
+    height: 6%;
+    border: 4px solid black;
+    font-size: 19px;
+  }
+  .contact>section{
+    grid-template-columns: 1fr;
+    height: 80%;
+  }
+  .email-form{
+    left: 5%;
+  }
+  .email-form>label:first-child{
+    font-size: 15px;
+  }
+  .email-form>label{
+    font-size: 12px;
+  }
+  .contact input[type="text"]{
+    width: 80%;
+  }
+  .email-form>textarea {
+    width: 80%;
+  }
+  .email-form>button{
+    width: 40%;
+    height: 6%;
+    left: 23%;
+    font-size: 12px;
+  }
+  .links{
+    width: 90%;
+    height: 80%;
+    top: 17%;
+  }
+  .links img{
+    width: 30px;
+    height: 30px;
+  }
+  .links>div>img{
+    top: 35%;
+    left: 8%;
+  }
+  .links>div>a{
+    top: 15%;
+    left: 12%;
+    font-size: 13px;
+  }
+  .links>div>p{
+    position: relative;
+    top: -5%;
+    bottom: 0;
+    left: 6%;
+    font-size: 13px;
+  }
+  .links>div:last-child>a{
+    top: -55%;
+    left: 20%;
+  }
+
+  /*------------------ footer section ----------------*/
+
+  footer{
+    height: 12vh;
+    grid-template-rows: 1.5fr 1fr;
+  }
+  .bike-gif {
+    width: 70px;
+  }
+  .footer-content{
+    font-size: 12px;
+  }
+}
+
+@media all and (max-width: 425px) {
+  /*--------- hero section ----------*/
+  .left-section{
+    width: 75%;
+  }
+  .right-section{
+    width: 25%;
+  }
+  .divider{
+    width: 300%;
+    left: -145%;
+    overflow: hidden;
+  }
+  .left-section>label:nth-child(1){
+    font-size: 30px;
+    left: 20px;
+  }
+  .left-section>label:nth-child(2){
+    font-size: 20px;
+    right: 90px;
+    top: -210px;
+  }
+  .left-section>label:nth-child(3){
+    font-size: 28px;
+    right: 40px;
+    top: -190px;
+  }
+  .left-section>label:nth-child(4){
+    font-size: 11px;
+    right: 35px;
+    top: -190px;
+  }
+  .social-icons{
+    right: 50px;
+    top: -130px;
+    gap: 10px;
+  }
+  .social-icons>a>div {
+    width: 20px;
+    height: 20px;
+  }
+  .social-icons>a>div>img{
+    top: 4px;
+  }
+  .navbar{
+    display: none;
+  }
+  .container{
+    display: inline-block;
+  }
+  .bar1, .bar2, .bar3 {
+    width: 30px;
+    height: 3px;
+    margin: 4px 0;
+  }
+  .change .bar1 {
+    transform: translate(0, 7px) rotate(-45deg);
+  }
+  .change .bar3 {
+    transform: translate(0, -7px) rotate(45deg);
+  }
+  .menu-div{
+    width: 190px;
+  }
+  .right-section-content>img{
+    width: 100%;
+    height: 55vh;
+  }
+  .right-section-content {
+    left: -250px;
+  }
+
+  .up-btn{
+    width: 45px;
+    left: 88vw;
+  }
+
+  /*--------- about section ----------*/
+  .about>div:first-child{
+    width: 30%;
+    height: 5%;
+    border: 4px solid black;
+    font-size: 17px;
+  }
+  .about>div:nth-child(2)>p{
+    font-size: 10px;
+  }
+  .about>div:nth-child(3){
+    bottom: -40px;
+  }
+  .about>div:nth-child(3)>img{
+    width: 150px;
+  }
+  .about>div:nth-child(4){
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    font-size: 14px;
+    width: 22%;
+    top: 70px;
+  }
+  .service{
+    top: 100px;
+  }
+  .service>div>img{
+    width: 40px;
+    height: 40px;
+  }
+  .service>div>label {
+    font-size: 10px;
+  }
+  .service>div>p{
+    font-size: 10px;
+  }
+  .design>img,.development>img{
+    left: 10px;
+  }
+  .design>label,.development>label{
+    left: -10px;
+    top: 5px;
+  }
+  .service>div:nth-child(3)>img{
+    left: -40px;
+    top: 5px;
+  }
+
+  /*--------- skills section ----------*/
+  .skill{
+    height: 70vh;
+  }
+  .skill>div:first-child{
+    width: 30%;
+    height: 6%;
+    border: 4px solid black;
+    font-size: 17px;
+  }
+  .skill>label{
+    font-size: 15px;
+  }
+  .marquee-content li {
+    margin-left: 30px;
+  }
+  .skill>section>div img {
+    width: 80px;
+    height: 80px;
+    bottom: 70px;
+  }
+  .skill>section>div label{
+    font-size: 15px;
+    margin-left: 30px;
+  }
+  .learning-skill{
+    width: 90%;
+    height: 20%;
+    top: 220px;
+  }
+  /*--------- education section ----------*/
+  .education{
+    height: 65vh;
+  }
+  .education>div:first-child{
+    width: 30%;
+    height: 8%;
+    border: 4px solid black;
+    font-size: 17px;
+  }
+  .wrap{
+    height: 90vmin;
+  }
+  .time{
+    font-size: 9px;
+    width: 25%;
+  }
+  .text>p{
+    font-size: 64%;
+  }
+  .dot{
+    width: 8px;
+    height: 8px;
+  }
+  .diploma , .graduation-cap{
+    display: none;
+  }
+
+  /*--------- assignment section ----------*/
+
+  .assignment{
+    height: 155vh;
+  }
+  .assignment>div:first-child{
+    width: 38%;
+    height: 4%;
+    border: 4px solid black;
+    font-size: 19px;
+  }
+  .assignment-cards{
+    height: 80%;
+    width: 80%;
+    grid-template-columns: 1fr;
+    gap: 25px;
+    top: 5%;
+  }
+  .assignment-cards>div:hover{
+    transform: scale(1.11);
+  }
+  .assignment-1 button , .assignment-2 button, .assignment-5 button, .assignment-6 button{
+    font-size: 14px;
+  }
+  .assignment-1>a:nth-child(3) , .assignment-2>a:nth-child(3) , .assignment-1>a:nth-child(4), .assignment-5>a:nth-child(4), .assignment-6>a:nth-child(4), .assignment-5>a:nth-child(5), .assignment-6>a:nth-child(5){
+    height: 13%;
+    top: 82%;
+    font-size: 14px;
+  }
+  .assignment-cards>div>label:first-child{
+    font-size: 17px;
+  }
+  .assignment-cards>div>p:nth-child(2) {
+    font-size: 11px;
+  }
+  .assignment-3>a:nth-child(3) , .assignment-4>a:nth-child(3) , .assignment-3>a:nth-child(2) , .assignment-4>a:nth-child(2){
+    font-size: 14px;
+    top: 69%;
+  }
+  .assignment-3>button , .assignment-4>button , .assignment-7>button{
+    height: 13%;
+    font-size: 14px;
+    top: 84%;
+  }
+  .show-cases{
+    bottom: 5%;
+  }
+  .form-popup{
+    top: 9%;
+  }
+  .btn-cancel {
+    height: 89%;
+    font-size: 14px;
+  }
+  .form-container>div>a{
+    height: 70%;
+    font-size: 12px;
+  }
+  .form-container>div>a:nth-child(3){
+    right: 5%;
+  }
+  .form-container>div>a:nth-child(2){
+    right: 41%;
+  }
+  .form-container>div>label{
+    font-size: 13px;
+  }
+  .assignment-btn-div>button{
+    width: 35%;
+    height: 50%;
+    font-size: 14px;
+  }
+
+  /*--------- project section ----------*/
+  .project>div:first-child{
+    width: 30%;
+    height: 5%;
+    border: 4px solid black;
+    font-size: 17px;
+  }
+  .project>section{
+    height: 80%;
+    grid-template-columns: 1fr;
+  }
+  .front-content>label{
+    font-size: 14px;
+  }
+  .front-content>p{
+    font-size: 10px;
+  }
+  .code-p{
+    left: 60%;
+    top: 50%;
+  }
+  .git-ico{
+    top: 55%;
+  }
+
+  /*--------- gallery section ----------*/
+  .gallery{
+    height: 140vh;
+  }
+  .gallery>div:first-child{
+    width: 30%;
+    height: 4%;
+    border: 4px solid black;
+    font-size: 17px;
+  }
+  .photo-section{
+    height: 90%;
+    width: 60%;
+    gap: 0;
+    grid-template-columns: 1fr;
+    top: 80px;
+  }
+  .photo-line{
+    display: flex;
+  }
+  .photo-line>div {
+    width: 60vw;
+    height: 35vh;
+    z-index: 3;
+  }
+  @keyframes animate-slider-426 {
+    0%,17%{
+      transform: translateX(0);
+    }
+    20%,37%{
+      transform: translateX(-60vw);
+    }
+    41%,58%{
+      transform: translateX(calc(-60vw * 2));
+    }
+    62%,79%{
+      transform: translateX(calc(-60vw * 3));
+    }
+    83%,100%{
+      transform: translateX(calc(-60vw * 4));
+    }
+  }
+  .line-1{
+    animation: animate-slider-426 35s infinite alternate-reverse;
+    /*animation: none;*/
+  }
+
+  .line-2{
+    animation: animate-slider-426 35s infinite alternate;
+    /*animation: none;*/
+  }
+
+  .line-3{
+    animation: animate-slider-426 35s infinite alternate-reverse;
+    /*animation: none;*/
+  }
+
+  /*--------- contact section ----------*/
+  .contact{
+    height: 140vh;
+  }
+  .contact>div:first-child{
+    width: 30%;
+    height: 5%;
+    border: 4px solid black;
+    font-size: 17px;
+  }
+  .contact>section{
+    grid-template-columns: 1fr;
+    height: 85%;
+  }
+  .email-form{
+    left: 5%;
+  }
+  .email-form>label:first-child{
+    font-size: 14px;
+  }
+  .email-form>label{
+    font-size: 11px;
+  }
+  .contact input[type="text"]{
+    width: 80%;
+  }
+  .email-form>textarea {
+    width: 80%;
+  }
+  .email-form>button{
+    width: 40%;
+    height: 6%;
+    left: 23%;
+    font-size: 12px;
+  }
+  .links{
+    width: 90%;
+    height: 80%;
+  }
+  .links img{
+    width: 25px;
+    height: 25px;
+  }
+  .links>div>img{
+    top: 38%;
+    left: 8%;
+  }
+  .links>div>a{
+    top: 15%;
+    left: 12%;
+    font-size: 12px;
+  }
+  .links>div>p{
+    position: relative;
+    top: -5%;
+    bottom: 0;
+    left: 6%;
+    font-size: 12px;
+  }
+  .links>div:last-child>a{
+    top: -65%;
+    left: 17%;
+  }
+
+  /*------------------ footer section ----------------*/
+
+  footer{
+    height: 12vh;
+    grid-template-rows: 1.5fr 1fr;
+  }
+  .bike-gif {
+    width: 60px;
+  }
+  .footer-content{
+    font-size: 10px;
+  }
+}

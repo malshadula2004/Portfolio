@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Malsha Wijesiri">
+  <meta name="keyword" content="HTML, CSS, JavaScript">
+  <meta name="description" content="Portfolio of Malsha Wijesiri - Software Engineer">
+
+  <title>Malsha Wijesiri</title>
+
+  <link rel="icon" href="icon/hd_icon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/mediaQuery.css">
+</head>
+<body>
+<main class="hero" id="hero">
+  <div class="left-section">
+    <label>MW</label>
+    <label data-aos="fade-up-right">Hi, I am</label>
+    <label data-aos="fade-up-right">
+      <span>M</span><span>a</span><span>l</span><span>s</span><span>h</span><span>a</span>
+      <span>W</span><span>i</span><span>j</span><span>e</span><span>s</span><span>i</span><span>r</span><span>i</span>
+    </label>
+    <label data-aos="fade-up-right" class="cursor typewriter-animation">Student of Software Engineering</label>
+    <div class="social-icons" data-aos="fade-up-right">
+      <a href="mailto:malshawijesiri@gmail.com">
+        <div><img src="icon/email.png"></div>
+      </a>
+      <a href="" target="_blank"><div><img src="icon/github.png"></div></a>
+      <a href="" target="_blank"><div><img src="icon/linkedin.png"></div></a>
+      <a href="" target="_blank"><div><img src="icon/facebook.png"></div></a>
+      <a href="" target="_blank"><div><img src="icon/instagram.png"></div></a>
+    </div>
+  </div>
+  <div class="right-section" id="right-section">
+    <div class="divider"></div>
+    <div class="right-section-content">
+      <img src="image/malsha.png" alt="Malsha Wijesiri">
+    </div>
+  </div>
+</main>
+
+<!-- Hamburger menu -->
+<div class="container" onclick="myFunction(this)">
+  <div class="bar1"></div>
+  <div class="bar2"></div>
+  <div class="bar3"></div>
+</div>
+
+<!-- Side Menu -->
+<div class="menu-div">
+  <div><img width="30" height="30" src="https://img.icons8.com/material-rounded/48/info.png" alt="info"/><a href="#about">About</a></div>
+  <div><img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/popular-woman.png" alt="skills"/><a href="#skill">Skills</a></div>
+  <div><img width="64" height="64" src="https://img.icons8.com/glyph-neue/64/education.png" alt="education"/><a href="#education">Education</a></div>
+  <div><img width="50" height="50" src="https://img.icons8.com/ios-filled/50/signing-a-document.png" alt="assignment"/><a href="#assignment">Assignments</a></div>
+  <div><img width="50" height="50" src="https://img.icons8.com/ios-filled/50/group-of-projects.png" alt="projects"/><a href="#project">Projects</a></div>
+  <div><img width="50" height="50" src="https://img.icons8.com/fluency-systems-filled/50/gallery.png" alt="gallery"/><a href="#gallery">Gallery</a></div>
+  <div><img width="50" height="50" src="https://img.icons8.com/ios-filled/50/contact-card.png" alt="contact"/><a href="#contact">Contact</a></div>
+</div>
+
+<!-- Top Navbar -->
+<div class="navbar">
+  <ul>
+    <li><a href="#about">About me</a></li>
+    <li><a href="#skill">Skills</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#assignment">Assignment</a></li>
+    <li><a href="#project">Project</a></li>
+    <li><a href="#gallery">Gallery</a></li>
+
+  </ul>
+</div>
+
+<!-- Back to Top Button -->
+<div class="up-btn">
+  <img id="btn-open" width="50" height="50" src="https://img.icons8.com/ios-filled/50/circled-chevron-up.png" alt="up"/>
+  <img id="btn-close" width="50" height="50" src="https://img.icons8.com/ios-filled/50/cancel.png" alt="cancel"/>
+</div>
+
+<!-- Mobile Menu -->
+<div class="menu-div-btn">
+  <div><img width="50" height="50" src="https://img.icons8.com/fluency-systems-filled/50/home.png" alt="home"/><a href="#hero">Home</a></div>
+  <div><img width="30" height="30" src="https://img.icons8.com/material-rounded/48/info.png" alt="info"/><a href="#about">About</a></div>
+  <div><img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/popular-woman.png" alt="skills"/><a href="#skill">Skills</a></div>
+  <div><img width="64" height="64" src="https://img.icons8.com/glyph-neue/64/education.png" alt="education"/><a href="#education">Education</a></div>
+  <div><img width="50" height="50" src="https://img.icons8.com/ios-filled/50/signing-a-document.png" alt="assignment"/><a href="#assignment">Assignments</a></div>
+  <div><img width="50" height="50" src="https://img.icons8.com/ios-filled/50/group-of-projects.png" alt="projects"/><a href="#project">Projects</a></div>
+  <div><img width="50" height="50" src="https://img.icons8.com/fluency-systems-filled/50/gallery.png" alt="gallery"/><a href="#gallery">Gallery</a></div>
+  <div><img width="50" height="50" src="https://img.icons8.com/ios-filled/50/contact-card.png" alt="contact"/><a href="#contact">Contact</a></div>
+</div>
+
+<!-- About Section -->
+<main class="about" id="about">
+  <div data-aos="fade-down">About Me</div>
+  <div data-aos="flip-left">
+    <p>I'm a passionate Software Engineering student with a deep interest in developing efficient, user-friendly, and creative applications. I enjoy solving real-world problems through clean and scalable code.</p>
+    <p>I focus on designing visually appealing and technically strong web solutions that combine both creativity and performance.</p>
+    <p>Always eager to learn new technologies, I strive to improve with every project I build!</p><br>
+  </div>
+  <div data-aos="fade-down">
+    <img src="image/design_image.webp" alt="design">
+  </div>
+  <div data-aos="fade-down">Services</div>
+  <section class="service">
+    <div class="design" data-aos="fade-right">
+      <img src="icon/design.png" alt="design">
+      <label>Design</label>
+      <p>I create modern and user-friendly designs tailored to your brand, ensuring an intuitive and engaging experience.</p>
+    </div>
+    <div class="development" data-aos="fade-left">
+      <img src="icon/development.png" alt="development">
+      <label>Development</label>
+      <p>I build robust, scalable, and responsive web applications using clean and optimized code.</p>
+    </div>
+    <div class="maintenance" data-aos="fade-up">
+      <img src="icon/maintenance.png" alt="maintenance">
+      <label>Maintenance</label>
+      <p>I provide continuous updates and technical support to keep your website secure and up-to-date.</p>
+    </div>
+  </section>
+</main>
+<main id="skill" class="skill">
+  <div data-aos="fade-down">Skills</div>
+  <label data-aos="fade-right">Using Now :</label>
+  <section class="using-skill">
+    <div class="marquee" data-aos="zoom-in-up">
+      <ul class="marquee-content">
+        <li>
+          <div>
+            <img src="image/skill%20image/java.png" alt="Java">
+            <label>Java</label>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="image/skill%20image/html.png" alt="HTML">
+            <label>HTML</label>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="image/skill%20image/css.png" alt="CSS">
+            <label>CSS</label>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="image/skill%20image/mysql.png" alt="MySql">
+            <label>MySql</label>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="image/skill%20image/figma.png" alt="Figma">
+            <label>Figma</label>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <label data-aos="fade-right">Learning :</label>
+  <section class="learning-skill" data-aos="zoom-in-up">
+    <div>
+      <img src="image/skill%20image/springBoot.png" alt="Spring Boot">
+      <label>Spring Boot</label>
+    </div>
+    <div>
+      <img src="image/skill%20image/dart.png" alt="Dart">
+      <label>Dart</label>
+    </div>
+    <div>
+      <img src="image/skill%20image/javaScript.png" alt="Java Script">
+      <label>Java Script</label>
+    </div>
+  </section>
+</main>
+
+<main id="education" class="education">
+  <div data-aos="fade-down">Education</div>
+  <section class="dip-content" data-aos="zoom-in-up">
+    <img src="image/graduationcap.png" class="graduation-cap">
+    <img src="image/diploma-removebg-preview.png" class="diploma">
+    <div class="wrap animate pop">
+      <div class="overlay">
+        <div class="overlay-content animate slide-left delay-2">
+          <h1 class="animate slide-left pop delay-4">Diploma</h1>
+          <p class="animate slide-left pop delay-5" style="color: white; margin-bottom: 2.5rem;"><em>IJSE</em></p>
+        </div>
+        <div class="image-content animate slide delay-5"></div>
+        <div class="dots animate">
+          <div class="dot animate slide-up delay-6"></div>
+          <div class="dot animate slide-up delay-7"></div>
+          <div class="dot animate slide-up delay-8"></div>
+        </div>
+      </div>
+      <div class="text">
+        <img class="inset" src="/image/download.png" alt="" /><br>
+        <h3>Institute Of Software Engineering</h3><br>
+        <div class="time">2023-2025</div><br><br><br>
+        <h5>Diploma Of Software Engineering</h5><br>
+        <p>Our mission being “Contributing most capable and reliable software engineers with profound knowledge in most recent technologies who can match up to demands of ever-evolving IT industry”, celebrating 16 years of excellence, IJSE has fortified the Sri Lankan IT sector, producing over 7000 skilled professionals who now excel in numerous reputed companies nationwide. IJSE, being one of the leading IT education providers in Sri Lanka has been focusing on enhancing the skills and attitudes which are desperately sought by the IT industry ever since its inception in 2006 with our most exquisite Software Engineering courses in Sri Lanka</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<main id="assignment" class="assignment">
+  <div data-aos="fade-down">Assignment</div>
+  <section class="assignment-cards" id="assignment-cards-1">
+    <div class="assignment-1" data-aos="fade-down-right">
+      <label>POS System</label>
+      <p>POS system is an essential tool for managing orders, inventory, and customer transactions. Built with HTML, CSS, and JavaScript, it offers a user-friendly interface for processing sales quickly and accurately.</p>
+      <a href="https://pos-system-lyart.vercel.app/" target="_blank">
+        <button>Demo</button>
+      </a>
+      <a href="https://github.com/harsha200210/POS_System.git" target="_blank">
+        <button>Code</button>
+      </a>
+    </div>
+    <div class="assignment-2" data-aos="fade-down-left">
+      <label>Portfolio</label>
+      <p>A personal portfolio website showcases my skills, projects, and assignment in a visually appealing way. Built with HTML, CSS, and JavaScript, it highlights your professional journey, creativity, and expertise.</p>
+      <a href="https://github.com/harsha200210/My_Portfolio.git" target="_blank">
+        <button>Code</button>
+      </a>
+    </div>
+    <div class="assignment-3" data-aos="fade-up-right">
+      <label>Transition</label>
+      <p>CSS transitions add smooth, animated effects to web elements, enhancing user experience. By changing properties like color, size, or position over a specified duration, transitions create visually appealing interactions.</p>
+      <a href="pdf/03%20(1).pdf" target="_blank">
+
+      </a>
+      <button class="open-button" onclick="openFormAssignment3()">View Cases</button>
+
+      <div class="form-popup" id="myForm">
+        <form class="form-container">
+          <div>
+            <label>Case 01</label>
+            <a href="assignment/Assignment_03_Internet_Technologies/case_01/case_01.html" target="_blank">Demo</a>
+            <a href="https://github.com/malshadula2004/Assiments/blob/master/Assignment_03-main/Assignment_03-main/case%2001/index.html" target="_blank">Code</a>
+          </div>
+          <div>
+            <label>Case 02</label>
+            <a href="assignment/Assignment_03_Internet_Technologies/case_02/case_02.html" target="_blank">Demo</a>
+            <a href="https://github.com/malshadula2004/Assiments/blob/master/Assignment_03-main/Assignment_03-main/case%2002/index.html" target="_blank">Code</a>
+          </div>
+          <div>
+            <label>Case 03</label>
+            <a href="assignment/Assignment_03_Internet_Technologies/case_03/case_03.html" target="_blank">Demo</a>
+            <a href="https://github.com/malshadula2004/Assiments/blob/master/Assignment_03-main/Assignment_03-main/case%2003/index.html" target="_blank">Code</a>
+          </div>
+          <div>
+            <label>Case 04</label>
+            <a href="assignment/Assignment_03_Internet_Technologies/case_04/case_04.html" target="_blank">Demo</a>
+            <a href="https://github.com/malshadula2004/Assiments/blob/master/Assignment_03-main/Assignment_03-main/case%2004/index.html" target="_blank">Code</a>
+          </div>
+          <div>
+            <label>Case 05</label>
+            <a href="assignment/Assignment_03_Internet_Technologies/case_05/case_05.html" target="_blank">Demo</a>
+            <a href="https://github.com/malshadula2004/Assiments/blob/master/Assignment_03-main/Assignment_03-main/case%2005/index.html" target="_blank">Code</a>
+          </div>
+          <div>
+            <label>Case 06</label>
+            <a href="assignment/Assignment_03_Internet_Technologies/case_06/case_06.html" target="_blank">Demo</a>
+            <a href="https://github.com/malshadula2004/Assiments/blob/master/Assignment_03-main/Assignment_03-main/case%2006/index.html" target="_blank">Code</a>
+          </div>
+          <div>
+            <button type="button" class="btn-cancel" onclick="closeFormAssignment3()">Close</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="assignment-4" data-aos="fade-up-left">
+      <label>Animation</label>
+      <p>CSS animations bring web designs to life by enabling smooth and dynamic changes to elements. With keyframes, you can define precise stages of the animation, creating effects like movement, fading, or scaling.</p>
+      <a href="pdf/04.pdf" target="_blank">
+
+      </a>
+      <button class="open-button" onclick="openFormAssignment4()">View Cases</button>
+
+      <div class="form-popup" id="myForm1">
+        <form class="form-container">
+          <div>
+            <label>Case 01</label>
+            <a href="assignment/Assignment_04/case%2001/index.html" target="_blank">Demo</a>
+            <a href="https://github.com/malshadula2004/animation/blob/master/Assignment_04-main/Assignment_04-main/case%2001/index.html" target="_blank">Code</a>
+          </div>
+          <div>
+            <label>Case 02</label>
+            <a href="assignment/Assignment_04/case%2002/index.html" target="_blank">Demo</a>
+            <a href="https://github.com/malshadula2004/animation/blob/master/Assignment_04-main/Assignment_04-main/case%2002/index.html" target="_blank">Code</a>
+          </div>
+          <div>
+            <label>Case 03</label>
+            <a href="assignment/Assignment_04/case%2003/index.html" target="_blank">Demo</a>
+            <a href="https://github.com/malshadula2004/animation/blob/master/Assignment_04-main/Assignment_04-main/case%2003/index.html" target="_blank">Code</a>
+          </div>
+          <div>
+            <label>Case 04</label>
+            <a href="assignment/Assignment_04/case%2004/index.html" target="_blank">Demo</a>
+            <a href="https://github.com/malshadula2004/animation/blob/master/Assignment_04-main/Assignment_04-main/case%2004/index.html" target="_blank">Code</a>
+          </div>
+          <div>
+            <label>Case 05</label>
+            <a href="assignment/Assignment_04/case%2005/index.html" target="_blank">Demo</a>
+            <a href="https://github.com/malshadula2004/animation/blob/master/Assignment_04-main/Assignment_04-main/case%2005/index.html" target="_blank">Code</a>
+          </div>
+          <div>
+            <label>Case 06</label>
+            <a href="assignment/Assignment_04/case%2006/index.html" target="_blank">Demo</a>
+            <a href="https://github.com/malshadula2004/animation/blob/master/Assignment_04-main/Assignment_04-main/case%2006/index.html" target="_blank">Code</a>
+          </div>
+          <div>
+            <button type="button" class="btn-cancel" onclick="closeFormAssignment4()">Close</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+  <section class="assignment-cards" id="assignment-cards-2">
+    <div class="assignment-5" data-aos="fade-down-right">
+      <label>Calculator</label>
+      <p>A simple calculator built with Bootstrap and JavaScript, it offers a clean, responsive design for basic arithmetic operations.It provides functionality such as addition, subtraction, multiplication, etc.</p>
+      <a href="">
+        <label></label>
+      </a>
+      <a href="assignment/Calculator/index.html" target="_blank">
+        <button>Demo</button>
+      </a>
+      <a href="https://github.com/malshadula2004/calculator/blob/master/Calculator-main/index.html" target="_blank">
+        <button>Code</button>
+      </a>
+    </div>
+
+
+    <div class="assignment-8" data-aos="fade-up-left">
+    </div>
+  </section>
+  <div class="assignment-btn-div">
+    <button id="btn-previous"><<-  Previous</button>
+    <button id="btn-next">Next  ->></button>
+  </div>
+</main>
+
+<main id="project" class="project">
+  <div data-aos="fade-down">Projects</div>
+  <section class="project-divs">
+    <div class="card" data-aos="fade-up-right">
+      <div class="content">
+        <div class="back">
+          <div class="back-content back-content-1">
+          </div>
+        </div>
+        <div class="front">
+          <div class="front-content">
+            <label>Connect Four Game</label>
+            <p>This is the project of the first module of my 1st semester. This is a software made in connection with the connect four game. Some algorithm has been used for this.</p>
+            <p><strong>Using Languages</strong></p>
+            <p>Frontend : Java Fx</p>
+            <p>Backend  : Java</p>
+            <a class="git-ico" href="https://github.com/harsha200210/connect-four-game-assignment.git" target="_blank"><i class="fa-brands fa-github fa-xl"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card" data-aos="fade-up-left">
+      <div class="content">
+        <div class="back">
+          <div class="back-content back-content-2">
+          </div>
+        </div>
+        <div class="front">
+          <div class="front-content">
+            <label>Laptop Shop Management System</label>
+            <p>This is my 1st semester final project. This is a standalone application made to manage a laptop shop. You can manage items, customers, suppliers, orders etc. in the shop.</p>
+            <p><strong>Using Languages</strong></p>
+            <p>Frontend : Java Fx</p>
+            <p>Backend  : Java</p>
+            <p>Database : MySql</p>
+            <a class="git-ico" href="https://github.com/harsha200210/Laptop_Shop_Management.git" target="_blank"><i class="fa-brands fa-github fa-xl"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<main id="gallery" class="gallery">
+  <div data-aos="fade-down">Gallery</div>
+  <section class="photo-section" data-aos="fade-up">
+    <div class="photo-line line-1">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <div class="photo-line line-2">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <div class="photo-line line-3" >
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </section>
+</main>
+
+<main id="contact" class="contact">
+  <div data-aos="fade-down">Contact</div>
+  <section class="contact-section">
+    <div class="send-email" data-aos="fade-up-right">
+      <form class="email-form" id="contact-form">
+        <label>Drop Me A Line</label><br><br><br><br>
+        <label for="from_name">Your Full Name</label><br><br>
+        <label>
+          <input type="text" id="from_name" name="from_name" placeholder="Enter your name">
+        </label><br><br><br>
+        <label for="from_email">Your Email</label><br><br>
+        <label>
+          <input type="email" id="from_email" name="from_email" placeholder="Enter your email">
+        </label><br><br><br>
+        <label for="subject">Subject</label><br><br>
+        <label>
+          <input type="text" id="subject" name="subject" placeholder="Enter Subject">
+        </label><br><br><br>
+        <label for="message">Message</label><br><br>
+        <textarea id="message" name="message" placeholder="Enter Message"></textarea><br><br>
+        <button type="submit">Send Email</button>
+      </form>
+    </div>
+    <div class="social" data-aos="fade-up-left">
+      <div class="links">
+        <div>
+          <img width="96" height="96" src="https://img.icons8.com/color/144/gmail--v1.png" alt="gmail--v1"/>
+          <a href=mailto:harshadilanbb2020@gmail.com">harshadilanbb2020@gmail.com</a>
+        </div>
+        <div>
+          <img width="96" height="96" src="https://img.icons8.com/color/144/whatsapp--v1.png" alt="whatsapp--v1"/>
+          <a href="tel:+94779349305">+94 77 934 9305</a>
+        </div>
+        <div>
+          <img width="96" height="96" src="https://img.icons8.com/color/96/marker--v1.png" alt="marker--v1"/>
+          <p>No.40,Nagalakanda,Maha Uduwa,Horana,Kaluthara,Sri Lanka</p>
+        </div>
+        <div>
+          <a href="https://www.instagram.com/harsha_dilan202?igsh=MWI4cDlzYmFmMzFqOQ==" target="_blank"><img width="96" height="96" src="https://img.icons8.com/fluency/96/instagram-new.png" alt="instagram-new"/></a>
+          <a href="https://www.facebook.com/harsha.dilan.7106?mibextid=ZbWKwL" target="_blank"><img width="96" height="96" src="https://img.icons8.com/color/96/facebook.png" alt="facebook"/></a>
+          <a href="https://github.com/harsha200210" target="_blank"><img width="96" height="96" src="https://img.icons8.com/ios-filled/50/github.png" alt="github"/></a>
+          <a href="https://www.linkedin.com/feed/" target="_blank"><img width="96" height="96" src="https://img.icons8.com/color/96/linkedin.png" alt="linkedin"/></a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <section class="bike-animation">
+    <img src="image/bike-animation.gif" class="bike-gif">
+  </section>
+  <section class="footer-content">@ Copyright 2024 Develop By Harsha Dilan</section>
+</footer>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script src="https://unpkg.com/scrollreveal"></script>
+<script type="text/javascript">
+  // Initialize EmailJS with your user ID
+  (function() {
+    emailjs.init("Xn2LTXiKvtS1AwAnE"); // Replace with your EmailJS user ID
+  })();
+
+  // Add form submission event listener
+  document.getElementById('contact-form').addEventListener('submit', function(event) {
+    event.preventDefault(); // Prevent default form submission
+
+    // Send the form data using EmailJS
+    emailjs.sendForm('service_bghqzs8', 'template_9xsjv03', this)
+      .then(function() {
+        alert('Email sent successfully!');
+      }, function(error) {
+        alert('Failed to send email. Error: ' + error.text);
+      });
+  });
+</script>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const root = document.documentElement;
+    const marqueeElementsDisplayed = getComputedStyle(root).getPropertyValue("--marquee-elements-displayed");
+    const marqueeContent = document.querySelector("ul.marquee-content");
+
+    if (marqueeContent) {  // Ensure marqueeContent exists
+      root.style.setProperty("--marquee-elements", marqueeContent.children.length);
+
+      for (let i = 0; i < marqueeElementsDisplayed; i++) {
+        marqueeContent.appendChild(marqueeContent.children[i].cloneNode(true));
+      }
+    }
+    AOS.init();
+  });
+</script>
+<script src="script.js"></script>
+</body>
+</html>
